@@ -11104,7 +11104,7 @@ See URL `https://github.com/palantir/tslint'."
             (config-file "--config" flycheck-typescript-tslint-config)
             (option "--rules-dir" flycheck-typescript-tslint-rulesdir)
             (eval flycheck-tslint-args)
-            source-inplace)
+            source-original)
   :error-parser flycheck-parse-tslint
   :modes (typescript-mode))
 
